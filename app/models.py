@@ -1,69 +1,30 @@
 from . import db
+from werkzeug.security import generate_password_hash,check_password_hash
 from flask_login import UserMixin
-# used for password hashing
-from werkzeug.security import generate_password_hash, check_password_hash
-# passes user id to queries
 from . import login_manager
 
-# class Role(db.Model):
-# class Teacher(db.Model):
-
-class Student(UserMixin, db.Model):
-    '''
-    student class model 
-    '''
+class User(db.Model):
     __tablename__ = 'users'
 
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(255), index=True)
-    pass_secure = db.Column(db.String(255))
-    email = db.Column(db.String(255), unique=True, index=True)
-    bio = db.Column(db.String(255))
-    profile_pic_path = db.Column(db.String())
+    id = db.Column(db.Integer,primary_key = True)
+    username = db.Column(db.String(255))
+    email = db.Column(db.String(255),unique = True,index = True)
+    password_hash = db.Column(db.String(255))
+    role_id = db.Column(db.Integer,db.ForeignKey('roles.id'))
 
-    # def __repr__(self):
-    #     return f'User {self.username}'
+    @property
+    def password(self):
+            raise AttributeError('You cannot read the password attribute')
 
-    # @property
-    # def password(self):
-    #     raise AttributeError('You cannot read the password attribute')
+    def set_password(self, password):
+        self.password_hash = generate_password_hash(password)
 
-    # @password.setter
-    # def password(self, password):
-    #     self.pass_secure = generate_password_hash(password)
+    def verify_password(self,password):
+        return check_password_hash(self.password_hash,password)
 
-    # def verify_password(self, password):
-    #     return check_password_hash(self.pass_secure, password)
-
-    # def __repr__(self):
-    #     return f'User {self.username}'
-
-    # @login_manager.user_loader
-    # def load_user(user_id):
-    #     return User.query.get(int(user_id))
-
-
-class Courses(db.Model):
-    '''
-    Courses model for student
-    '''
-    __tablename__ = 'courses'
-
-    id = db.Column(db.Integer, primary_key=True)
-    course_id = db.Column(db.Integer)
-    course = db.Column(db.String(255), index=True)
-    content = db.Column(db.String(), index=True)
-    # from foreign key
-    # pitch_id = db.relationship('Pitch', backref='category', lazy="dynamic")
-
-
-class Exercise(db.Model):
-    '''
-    Exercise
-    '''
-    __tablename__ = 'exercise'
-
-    id = db.Column(db.Integer, primary_key=True)
-    pitch_id = db.Column(db.Integer)
-    exercise = db.Column(db.String(255))
-    Question = db.Column(db.String(255))
+    @login_manager.user_loader
+    def load_user(user_id):
+        return User.query.get(int(user_id))
+        
+    def __repr__(self):
+        return f'User {self.username}'

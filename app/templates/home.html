@@ -1,0 +1,62 @@
+{% extends 'base.html'%}
+
+{% block styles%}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('static',filename='css/home.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{% endblock %}
+
+{% block content %}
+<body>
+
+<div class="container-fluid">
+        <div class="jumbotron">
+            <img src="../static/images/34.jpg" style="padding-left: 300px;">        
+        </div>
+
+    <div class="row">
+            <div class="card mb-4 col-md-4">
+                    <a class="list-group-item list-group-item-action active" href="./">HTML LESSONS</a>
+                        <h4>Content</h4>
+                        <li style="list-style: none">
+                            <ul>sdnf;dsnf</ul>
+                            <ul>sdnf;dsnf</ul>
+                            <ul>sdnf;dsnf</ul>
+                        </li>
+            </div> 
+
+            <div class="card mb-4 col-md-4">
+                    <a class="list-group-item list-group-item-action active" href="./">HTML/CSS LESSONS</a>
+                        <h4>Content</h4>
+                        <li style="list-style: none">
+                            <ul>sdnf;dsnf</ul>
+                            <ul>sdnf;dsnf</ul>
+                            <ul>sdnf;dsnf</ul>
+                        </li>
+            </div> 
+
+            <div class="card mb-4 col-md-4">
+                    <a class="list-group-item list-group-item-action active" href="./">COMPUTER SCIENCE LESSONS</a>
+                        <h4>Content</h4>
+                        <li style="list-style: none">
+                            <ul>sdnf;dsnf</ul>
+                            <ul>sdnf;dsnf</ul>
+                            <ul>sdnf;dsnf</ul>
+                        </li>
+            </div>  
+    </div><br><br>
+
+    <footer class="footer" style="background-color: #1B618A; color: white; text-align: center;">
+        <p>LMS-lite ©</p>
+        <p>Contact information: <a href="mailto:someone@example.com">
+        lms-lite-group@gmail.com</a></p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-github"></a>
+
+    </footer>    
+
+</div>    
+</body>
+{% endblock %}
