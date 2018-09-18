@@ -1,22 +1,14 @@
-from flask import render_template, redirect, url_for, abort
+from flask import render_template
+from .import main
 
-# importing main from main blueprint
-from . import main
-
-# importing database
-# from .. import db
-
-
-
-# decorator that will user authentication
-from flask_login import login_required, current_user
-
-# importing wft
-from flask_wtf import FlaskForm
-
-
+# Views
 @main.route('/')
 def index():
-    title = 'Home is best'
-   
-    return render_template('index.html', title=title)
+    '''
+    function that returns the index page and its data
+    '''
+
+    title = 'LMS-lite Homepage'
+
+    return render_template('index.html', title = title)
+    
