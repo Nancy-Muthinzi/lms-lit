@@ -1,0 +1,86 @@
+How do computers work? What do computer scientists do?  What does it take to make a computer or a computer program work? 
+
+The three phases of a software engineer:
+Any successful software engineer goes through three consecutive phases.
+
+Some can’t go beyond the first phase, some can’t go beyond the second, and only a few reaches the third.
+
+These three phases are:
+1- the coder
+2- the programmer
+3- the computer scientist
+
+First Phase: The Coder
+Any software engineer starts his career as a coder.
+This can happen at a very young age.
+You don’t even need a college degree to be a coder.
+
+So what is a coder?
+A coder is someone who knows how to talk the language of a machine.
+Given a particular problem, a coder knows how to break down the problem into instructions that the machine can understand in order to come up with a solution.
+Here is the thing, if you find yourself really struggling at this phase, then you might want to consider a different career path because the coding phase is literally the easiest phase of your CS career.
+If you succeed, congratulations. You might have a successful career as a software engineer.
+Unfortunately many software engineers remain in this phase for their whole career.
+If you’re just a coder, your pay won’t be great because your skills are easily replaceable.
+If you remain just a coder, your promotions will be severely limited.
+At this stage, don’t expect to even get an entry-level job at any of the big tech companies.
+You need at least to evolve to the next phase for this to happen.
+You need to be a programmer.
+
+The first and only step to be a coder is to learn programming.
+This is the easiest step in your CS career, and it gives you a quick feedback about whether you should pursue a CS career or not.
+When it comes to choosing programming languages, I don’t want you to fret over what programming language to learn.
+The reason is, at this stage what matters is not the particular programming language, but the concepts that you will be learning. These concepts will hold in almost any other programming language.
+When you become a more seasoned programmer, you will reach a point where learning a new programming language doesn’t take more than a week, so don’t waste your time trying to find the “perfect” programming language to start with because: a) it doesn’t exist and b) it doesn’t matter.
+
+Second Phase: The Programmer
+Once you learnt the basics of at least two programming languages (preferably one statically-typed and one dynamically-typed), you are a solid coder.
+The question now is how to promote yourself to the programmer status?
+A programmer is essentially a sophisticated coder.
+Writing code that does the job is what coders do but writing efficient code that does the job is what programmers do.
+
+Here is a list of some skills that you should have as a programmer:
+1- you know the fundamentals of how any code eventually turns into something that a hardware chip can understand and execute.
+2- you understand that any system has finite compute, storage, and network resources and your software should utilize these resources efficiently.
+3- you know how to use data structures and algorithms to write efficient code.
+4- you understand what makes code efficient and what doesn’t.
+5- you understand that quality is important and that testing your code is crucial.
+
+Now I got good news and bad news for you.
+The bad news: this is not the end, there is a long way to go.
+The good news: there are a lot of coders out there, but there aren’t a lot of solid programmers. If you really master this phase, you can easily secure a job at one of the big tech companies like Google, Facebook, Amazon, and others. In fact most of the interviews conducted at these companies test how good of a programmer, not a coder, you are.
+
+Third Phase: The Computer Scientist
+Learning does not stop after mastering the programming phase.
+As a matter of fact it actually starts!
+When you are at the computer scientist phase, you’re essentially an architect who thinks about the big picture more than the nitty gritty details.
+You have a solid understanding of designing large distributed systems and you know how to build scalable systems that can handle large loads and tolerate failures.
+A computer scientist also never stops learning, and always tries to stay up to date with the latest in technology.
+At this level, you’ll most likely be in charge of big projects and you’ll be managing a team (usually of coders and solid programmers) to get the job done.
+You might also need to cooperate with other teams.
+All of these require stellar social and leadership skills.
+In the rest of this article, I will go through the technical skills that you need in order to be a coder, then a programmer, and finally a computer scientist.
+Let’s get started.
+
+1- The Coder
+
+2- The Programmer
+OK so you can write code that can do some really cool stuff, but seriously do you even understand what’s going on?
+At the end of the day, a computer is just a collection of hardware chips and wires.
+How can a computer really understand your code? and execute it flawlessly?
+The fact of the matter is, your code is just the tip of the iceberg. There are a lot of other layers under your code that together make the whole thing works the way you expect it to work.
+A programmer unravels this magic.
+At this level, you need a solid understanding of all the layers of the stack starting from your code all the way down to the hardware layer.
+
+Now you are in a very good shape to go back and start programming again, but this time with a completely different mindset.
+Because now you REALLY know what’s happening under the hood.
+You understand how hardware is eventually going to run your code.
+You know that you have limited hardware resources and you understand the value of utilizing the available resources efficiently.
+Studying algorithms and data structures will teach you how to write code in a way that makes your code more efficient (however you define efficiency: it could be speed, resource utilization, or both).
+The skills you are going learn at this phase are one of the major differentiators that separates average coders from solid programmers.
+In fact, most big tech companies like Google, Facebook, and Amazon focus a lot on data structures questions during their interview process.
+
+3- The Computer Scientist
+Welcome to the start of your computer scientist status.
+In this level, you will be learning new skills while you improve the skills you learnt as a programmer.
+Distributed systems is about building and architecting software systems that are scalable and that can tolerate failures at the same time. This requires you to think of the bigger picture rather than focusing on how to build the individual components (programmers and coders can do that).

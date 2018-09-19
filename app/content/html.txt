@@ -12,15 +12,12 @@ HTML is the standard markup language for creating Web pages.
     • HTML elements are the building blocks of HTML pages
     • HTML elements are represented by tags
     • HTML tags label pieces of content such as "heading", "paragraph", "table", and so on
-    • Browsers do not display the HTML tags, but use them to render the content of the page
-Example Explained
-    • The <!DOCTYPE html> declaration defines this document to be HTML5
-    • The <html> element is the root element of an HTML page
-    • The <head> element contains meta information about the document
-    • The <title> element specifies a title for the document
-    • The <body> element contains the visible page content
-    • The <h1> element defines a large heading
-    • The <p> element defines a paragraph
+    • Browsers do not display the HTML tags, but use them to render the content of the page.
+
+HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit. 
+It can be as complicated or as simple as the web developer wishes it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of the content to make it appear or act a certain way. 
+The enclosing tags can make a bit of content into a hyperlink to link to another page on the web, italicize words, and so on.
+
 HTML Tags
 HTML tags are element names surrounded by angle brackets:
 <tagname>content goes here...</tagname>
@@ -28,6 +25,7 @@ HTML tags are element names surrounded by angle brackets:
     • The first tag in a pair is the start tag, the second tag is the end tag
     • The end tag is written like the start tag, but with a forward slash inserted before the tag name
 The start tag is also called the opening tag, and the end tag the closing tag.
+
 Indentation and Spacing
 When writing HTML (or any other programming language), well-written code follows consistent indentation and spacing patterns. In some languages, indentation and spacing are required for the code to function properly. In HTML, inconsistent indentation and spacing will not impact the functionality of the web page but will cause your code to be difficult to read and understand.
 Web Browsers
@@ -42,11 +40,27 @@ Follow the four steps below to create your first web page with Notepad.
 
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>My first webpage!</title>
 </head>
-<body>
 
+<body>
+    <h1>My First webpage!</h1>
 </body>
+
 </html>
-HTML pages are made up of two distinct parts - the head part, and the body part. The head contains things that won't appear on your page. Many of the elements that go in the head are advanced stuff to tell search engines and browsers about the page, so the only one you need to know for now is <title>.
+
+HTML pages are made up of two distinct parts - the head part, and the body part. 
+The head contains things that won't appear on your page. Many of the elements that go in the head are advanced stuff to tell search engines and browsers about the page, so the only one you need to know for now is <title>.
+
+Example Explained
+    • The <!DOCTYPE html> declaration defines this document to be HTML5
+    • The <html> element is the root element of an HTML page
+    • The <head> element contains meta information about the document
+    • The <title> element specifies a title for the document
+    • The <body> element contains the visible page content
+    • The <h1> element defines a large heading
+    • The <p> element defines a paragraph
+
+Note: Tags in HTML are case-insensitive, i.e. they can be written in uppercase or lowercase. For example, a <title> tag could be written as <title>, <TITLE>, <Title>, <TiTlE>, etc., and it will work fine. Best practice, however, is to write all tags in lowercase for consistency, readability, and other reasons.    
