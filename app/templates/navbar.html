@@ -32,8 +32,15 @@
                         </div>
                 </li>
 
-            <li><a href="/">LOG IN</a></li>
-            <!-- <li><a href="/">LOG OUT</a></li> -->
+            <ul class="nav navbar-nav navbar-right">
+                    {% if current_user.is_authenticated %}
+                    <li><a href="{{url_for('main.profile',uname=current_user.username)}}">Profile</a></li>
+                    <li><a href="{{url_for('auth.logout')}}">LOG OUT</a></li>
+                    {% else %}
+                    <li><a href="{{url_for('auth.login')}}">LOG IN</a></li>
+                    {%endif%}
+            </ul>
+                
             </ul>    
         </div>
 <br><br><br><br><br>
