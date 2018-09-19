@@ -1,0 +1,32 @@
+1. What does CSS stand for?
+
+ Computer Style Sheets
+ Cascading Style Sheets
+ Creative Style Sheets
+ Colorful Style Sheets
+
+ 2. What is the correct HTML for referring to an external style sheet?
+
+ <style src="mystyle.css">
+ <stylesheet>mystyle.css</stylesheet>
+ <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+3. Where in an HTML document is the correct place to refer to an external style sheet?
+
+ In the <body> section
+ At the end of the document
+ In the <head> section
+
+4. Which is the correct CSS syntax?
+
+ {body;color:black;}
+ {body:color=black;}
+ body {color: black;}
+ body:color=black;
+
+5. Which HTML attribute is used to define inline styles?
+
+ style
+ font
+ styles
+ class
