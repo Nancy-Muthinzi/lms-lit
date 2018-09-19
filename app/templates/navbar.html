@@ -14,14 +14,26 @@
         <div class="navbar-collapse collapse" style="float: right;">
             <ul class="nav navbar-nav" style="font-size: 20px;">
                 <br><br><br>
-                <li><a href="/home">HOME</a></li>
-                {% if current_user.is_authenticated %}
-                <li><a href="{{url_for('main.profile',uname=current_user.username)}}">PROFILE</a></li>
-                <li><a href="{{url_for('auth.logout')}}">LOG OUT</a></li>
-                {% else %}
-                <li><a href="{{url_for('auth.login')}}">LOG IN</a></li>
-                {%endif%}
+                <li><a href="/">HOME</a></li>
 
+                <li class="dropdown">
+                        <button class="dropbtn">STUDENT</button>
+                        <div class="dropdown-content">
+                          <a href="#">PROFILE</a>
+                          <a href="#">EXERCISE</a>
+                        </div>
+                </li>
+                      
+                <li class="dropdown">
+                        <button class="dropbtn">TEACHER</button>
+                        <div class="dropdown-content">
+                          <a href="#">PROFILE</a>
+                          <a href="#">CIRRUCCULUM</a>
+                        </div>
+                </li>
+
+            <li><a href="/">LOG IN</a></li>
+            <!-- <li><a href="/">LOG OUT</a></li> -->
             </ul>    
         </div>
 <br><br><br><br><br>
