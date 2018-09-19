@@ -21,11 +21,3 @@ def index():
 # 	text.close()
 # 	return render_template('content.html', text=content)
  
-# @main.route('/user/<uname>')
-# def profile(uname):
-#     user = User.query.filter_by(username = uname).first()
-
-#     if user is None:
-#         abort(404)
-
-#     return render_template("profile/profile.html", user = user)
