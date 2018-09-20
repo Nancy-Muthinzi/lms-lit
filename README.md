@@ -1,26 +1,31 @@
 # LMS-LITE
-This is an application that allows users to use one minute wisely by saying something meaningful. This is achieved by creating a pitch. The users will submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
 
-#### By Nancy Muthinzi
+Project Description:
+Tgis is an academic online solution for teaching primary and secondary kids to help them increase their knowledge on any subject. This is done through well detailed content and tests to gauge their understanding of the taught subjects.
+
+#### By 
+* Ian Odhiambo
+* Mohammed Abdul
+* Yvonne Ouma
+* Nick Munene
+* Nancy Muthinzi
 
 ## SPECIFICATIONS
 With this application, a user can:
-- See pitches other people have posted.
-- Vote on the pitch they liked and give it an upvote or a downvote.
-- Sign up in the application.
-- Receive a welcoming email when they sign up.
-- View pitches created on their profile page.
-- Be able to leave a comment on different pitches and leave feedback.
-- View different pitches categories.
-
+- Sign up, log in and create a profile
+- Read course content and do quizes at the end of each course
 
 ## SETUP/INSTALLATION REQUIREMENTS
-To be able to view or use the application, here's the github https://nancy-muthinzi.github.io/ip5-pitches/.
+To be able to clone or download the application, here's the github link:
+https://ianodad.github.io/lms-lit/.
 
-You need to clone the repository and install all the dependencies required before being able to launch the app on your computer.
+You need to download and install all the dependencies required before being able to launch the app on your computer.
+
+To be able to view and use the application, here's the link to the deployed site on Heroku:
+https://
 
 ## KNOWN BUGS
-This is still a work in progress and will continue to be worked on. But for any issues encountered and any contributions to the code or design, kindly reach out to me on my email address: nanciekathini@gmail.com.
+This is still a work in progress and will continue to be worked on. But for any issues encountered and any contributions to the code or design, kindly reach out to us on: lms-lite@gmail.com.
 
 ## TECHNOLOGIES USED
 - Python 3.6 
@@ -50,4 +55,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.}*
 
-Copyright (c) 2018 **Nancy Muthinzi**
+Copyright (c) 2018 **LMS-lite Group**

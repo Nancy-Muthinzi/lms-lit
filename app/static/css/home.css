@@ -13,7 +13,7 @@ a:hover {
 }
 .dropbtn {
     background-color: #F56F23;
-    color: white;
+    color: rgb(100, 53, 53);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -62,17 +62,17 @@ a:hover {
 }
 
 .fa-facebook {
-    background: #55ACEE;
+    background: #F56F23;
     color: white;
 }
 
 .fa-twitter {
-    background: #55ACEE;
+    background: #F56F23;
     color: white;
 }
 
 .fa-github {
-    background: #55ACEE;
+    background: #F56F23;
     color: white;
 }
 
